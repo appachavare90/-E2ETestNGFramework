@@ -25,7 +25,7 @@ public class VerifySignUpPage extends BaseClass {
 		Sp.enterPhone().sendKeys("7709063538");
 		Select s=new Select(Sp.selectEmployees());
 		s.selectByIndex(1);
-		Sp.enterCompany().sendKeys("Mindtree");
+		Sp.enterCompany().sendKeys("LTIMindtree");
 		Select se=new Select(Sp.selectCountry());
 		se.selectByVisibleText("New Zealand");
 		//Sp.clickOnServiceAgreementChecoBox().click();
