@@ -13,6 +13,7 @@ import Resources.BaseClass;
 import Resources.Constants;
 
 public class VerifyLoginPage extends BaseClass {
+	// This is for demo purpose
 	@Test(dataProvider = "testData")
 	public void loginVerification(String username,String password) throws IOException, InterruptedException
 	{
